@@ -28,6 +28,7 @@ print(is_sorted(arr))
 ##########################################################################################################################
 # Leetcode 1752: Check if rotated array was originally sorted
 # Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+# Companies: Adobe, Amazon
 # 
 # Example 1:
 #    Input: arr = [3,4,5,1,2]
@@ -56,4 +57,7 @@ arr = [3,4,5,1,2]
 print(was_originally_sorted(arr))
 
 arr = [2,1,3,4]
+print(was_originally_sorted(arr))
+
+arr = [1,2,3]
 print(was_originally_sorted(arr))
